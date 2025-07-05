@@ -127,8 +127,7 @@ footer {
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-instagram:hover {
-  transition: 0.4s;
-  transform: scale(1.2);
+  opacity: 0.5;
 }
 
 
