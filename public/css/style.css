@@ -1,0 +1,168 @@
+/**** componets ****/
+
+input {
+  padding: 15px 120px 15px 32px;;
+  border: 1px solid #c2d3ff;
+  border-radius: 50px;
+  outline: #c2d3ff;
+}
+
+::placeholder {
+  color: #c2d3ff;
+}
+
+.notify-btn {
+  padding: 15px 125px;
+  background-color: #4f7df3;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow:  1px 4px 10px #c2d3ff;
+}
+
+.notify-btn:hover {
+  opacity: 0.5;
+}
+
+/**** fonts *****/
+
+* {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 300;
+  color: #969696;
+}
+
+strong {
+  color: #151f29;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  color:#151f29;;
+  font-weight: 300;
+  margin: 30px 0px;
+}
+
+/***** base body *****/
+
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 120px 28px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/***** intro-section *****/
+
+.intro-section {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.intro-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 15%;
+  height: auto;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.intro-img {
+  margin: 65px 14px 130px;
+  width: 90%;
+}
+
+/***** footer-section ****/
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+  color: #4f7df3;
+}
+
+
+
+
+/***** media queries *****/
+
+@media screen and (min-width:768px) {
+
+  h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-top:10px ;
+  }
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  input {
+    padding: 15px 158px 15px 24px;
+  }
+
+  .notify-btn {
+  padding: 15px 32px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    width: 8%;
+  }
+
+  .intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .intro-img {
+    width: 60%;
+  }
+}
+
