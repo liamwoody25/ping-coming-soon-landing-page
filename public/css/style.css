@@ -20,13 +20,18 @@ input {
   font-weight: 600;
   font-size: 14px;
   box-shadow:  1px 4px 10px #c2d3ff;
+  transition: 0.6s;
+  cursor: pointer;
+  
+  
 }
 
 .notify-btn:hover {
   opacity: 0.5;
+  transform: scale(1.10);
 }
 
-/**** fonts *****/
+/***** typeography *****/
 
 * {
   font-family: 'Libre Franklin', sans-serif;
@@ -36,6 +41,7 @@ h1 {
   font-size: 25px;
   font-weight: 300;
   color: #969696;
+  margin-top: 45px;
 }
 
 strong {
@@ -47,7 +53,7 @@ p {
   font-size: 16px;
   color:#151f29;;
   font-weight: 300;
-  margin: 30px 0px;
+  margin: 0px 0px 45px;
 }
 
 /***** base body *****/
@@ -91,8 +97,8 @@ form {
 }
 
 .intro-img {
-  margin: 65px 14px 130px;
-  width: 90%;
+  margin: 65px 0px 130px;
+  width: 100%;
 }
 
 /***** footer-section ****/
@@ -110,12 +116,20 @@ footer {
   gap: 10px;
 }
 
-.fa-facebook,
-.fa-twitter,
-.fa-instagram {
+ a .fa-facebook,
+ a .fa-twitter,
+ a .fa-instagram {
   color: #4f7df3;
+
+
 }
 
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover {
+  transition: 0.4s;
+  transform: scale(1.2);
+}
 
 
 
@@ -135,18 +149,21 @@ footer {
   form {
     display: flex;
     flex-direction: row;
+    gap: 15px;
     justify-content: center;
   }
 
   input {
-    padding: 15px 158px 15px 24px;
+    padding: 15px 158px 15px 32px;
   }
 
   .notify-btn {
-  padding: 15px 32px;
+    padding: 17px 55px;
   }
 
   .container {
+    margin-left: 150px;
+    margin-right: 150px;
     display: flex;
     flex-wrap: wrap;
   }
@@ -162,7 +179,14 @@ footer {
   }
 
   .intro-img {
-    width: 60%;
+    width: 50%;
+  }
+
+  /***** footer-section *****/
+
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
