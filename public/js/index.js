@@ -1,6 +1,5 @@
-const submitBtn = document.querySelector('.notify-btn');
+const submiBtn = document.querySelector('.notify-btn');
 
-submitBtn.addEventListener('click', function() {
+submiBtn.addEventListener('click', function(){
   console.log('click')
 })
-
